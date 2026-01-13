@@ -49,7 +49,7 @@ Bạn có thể thiết lập biến `SEPOLIA_PRIVATE_KEY` bằng cách sử d�
 npx hardhat keystore set SEPOLIA_PRIVATE_KEY
 ```
 
-After setting the variable, you can run the deployment with the Sepolia network:
+Sau khi thiết lập biến, bạn có thể chạy quá trình triển khai với mạng Sepolia:
 
 ```shell
 npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
